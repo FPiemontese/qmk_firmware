@@ -2,6 +2,8 @@
 
 #define ______ KC_TRNS
 
+// ? Add a numpad
+
 // DZ60 layout 5, 1u right shift, arrow keys, 5 1u keys in the bottom row
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -29,9 +31,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   /* FN Layer
    * ,-----------------------------------------------------------------------------------------.
-   * | Esc |  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |   RESET   |
+   * | Esc |  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |           |
    * |-----------------------------------------------------------------------------------------+
-   * |        |RBB T|RGB M| Hue+| Hue-|     |     |     |  U  |     |     |      |      |      |
+   * |        |RBB T|RGB M| Hue+| Hue-|     |     |     |  U  |     |     |      |      | RESET|
    * |-----------------------------------------------------------------------------------------+
    * |         | Sat+| Sat-| Val+| Val-|     |     |  L  |  D  |  R  |     |     |             |
    * |-----------------------------------------------------------------------------------------+
@@ -42,8 +44,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
 
   LAYOUT_directional(
-    KC_GRV, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10, KC_F11, KC_F12, KC_TRNS, RESET,
-    ______, RGB_TOG, RGB_MOD, RGB_HUI, RGB_HUD, ______, ______,  KC_UP, , ______, ______, ______, ______, ______,
+    KC_GRV, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10, KC_F11, KC_F12, ______, ______,
+    ______, RGB_TOG, RGB_MOD, RGB_HUI, RGB_HUD, ______, ______,  KC_UP, , ______, ______, ______, ______, RESET,
     ______, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD, ______, KC_LEFT, KC_DOWN, KC_RIGHT, ______, ______, ______,
     ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, KC_MSTP, KC_MPLY, KC_VOLU, ______,
     ______, ______, ______, ______, ______, ______, ______, ______, KC_MPRV, KC_VOLD, KC_MNXT
