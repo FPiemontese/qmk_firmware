@@ -3,7 +3,9 @@
 #define ______ KC_TRNS
 
 // ? Add a numpad
+// TODO: add pageUp pageDown end home
 // TODO: add a non-temporary layer switch key
+// TODOs: add a right click
 
 // DZ60 layout 5, 1u right shift, arrow keys, 5 1u keys in the bottom row
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -38,9 +40,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |-----------------------------------------------------------------------------------------+
    * |         | Sat+| Sat-| Val+| Val-|     |     |  L  |  D  |  R  |     |     |             |
    * |-----------------------------------------------------------------------------------------+
-   * |           |     |     |     |     |     |     |     |     |     |     |     |     |     |
+   * |           |     |     |     |     |     |     |     |     |     | STOP| ▶|| |VOL↑ |     |
    * |-----------------------------------------------------------------------------------------+
-   * |      |       |       |                                   |     |      |     |     |     |
+   * |      |       |       |                                   |     |      |TRCK←|VOL↓ |TRCK→|
    * `-----------------------------------------------------------------------------------------'
    */
 
