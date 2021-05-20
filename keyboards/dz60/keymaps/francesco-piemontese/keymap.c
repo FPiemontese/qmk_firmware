@@ -2,10 +2,23 @@
 
 #define ______ KC_TRNS
 
-// ? Add a numpad
-// TODO: add pageUp pageDown end home
-// TODO: add a non-temporary layer switch key
-// TODOs: add a right click
+/*
+
+TODOs:
+  - add pageUp pageDown end home
+  - add a right click
+  - add a non-temporary layer switch key
+  - add an FN on the left
+    - maybe have CAPS lock act as itself when tapped and as FN when held down
+  - remove unused RGB commands
+
+MAYBEs:
+  - add a numpad
+  - move arrow keys to the left (FN + WASD?), have backspace and del on the right instead (removes
+    need to move hand from arrow keys to backspace when navigating code)
+
+*/
+
 
 // DZ60 layout 5, 1u right shift, arrow keys, 5 1u keys in the bottom row
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
