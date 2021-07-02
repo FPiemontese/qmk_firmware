@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ______, ______, KC_UP, ______, ______, ______, ______, ______,  KC_UP, ______, ______, ______, ______, RESET,
     ______, KC_LEFT, KC_DOWN, KC_RIGHT, ______, ______, ______, KC_LEFT, KC_DOWN, KC_RIGHT, ______, KC_GRV, ______,
     ______, RGB_TOG, RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, ______, ______, TD(TD_HOME_PAGEUP), TD(TD_END_PAGEDOWN), KC_MSTP, KC_MPLY, KC_VOLU, ______,
-    ______, ______, ______, ______, ______, ______, ______, ______, KC_MPRV, KC_VOLD, KC_MNXT
+    KC_RCTL, ______, ______, ______, ______, ______, ______, ______, KC_MPRV, KC_VOLD, KC_MNXT
   ),
 
 };
